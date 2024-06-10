@@ -1,45 +1,40 @@
 import React from 'react'
 
 const Add = () => {
-  return (
-    <div>
-        <div className="container">
-            <div className="row">
-                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+    return (
+        <div>
+            <div className="container">
+                <div className="row">
+                    <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <div className="row g-3">
+
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form-label">Name</label>
+                                <input type="text" className="form-control" />
+                            </div>
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form-label">Friend Name</label>
+                                <input type="text" className="form-control" />
+                            </div>
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form-label">Friend Nick Name</label>
+                                <input type="text" className="form-control" />
+                            </div>
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form-label">Describe Friend</label>
+                                <textarea name="" id="" className="form-control"></textarea>
+                            </div>
+                            <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <center>
+                                    <button className="btn btn-success">Register</button>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Add
